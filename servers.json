@@ -1,0 +1,12 @@
+{
+    "servers": [
+        {
+            "name": "WINDOWS-SERVER-01",
+            "commands": ["powershell.exe -Command Get-Service"]
+        },
+        {
+            "name": "WINDOWS-SERVER-02",
+            "commands": ["cmd /c dir"]
+        }
+    ]
+}

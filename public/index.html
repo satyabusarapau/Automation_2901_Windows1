@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Command Executor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Server Command Executor</h1>
+    
+    <label for="serverSelect">Select Server:</label>
+    <select id="serverSelect"></select>
+
+    <label for="commandSelect">Select Command:</label>
+    <select id="commandSelect"></select>
+
+    <button onclick="executeCommand()">Execute Command</button>
+
+    <h2>Command Logs</h2>
+    <textarea id="logs" readonly></textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>
